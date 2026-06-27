@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WorldCup Analytics</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Ícones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+
+                <i class="fa-solid fa-trophy"></i>
+
+                <div>
+
+                    <h2>WorldCup</h2>
+                    <span>Analytics</span>
+
+                </div>
+
+            </div>
+
+            <nav>
+
+                <ul>
+
+                    <li class="active">
+                        <i class="fa-solid fa-chart-line"></i>
+                        Dashboard
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-futbol"></i>
+                        Jogadores
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-flag"></i>
+                        Seleções
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-shield-halved"></i>
+                        Clubes
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-chart-simple"></i>
+                        Estatísticas
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-circle-info"></i>
+                        Sobre o Projeto
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="footer-sidebar">
+
+                <p>Projeto Acadêmico</p>
+                <span>Desenvolvido por Paulo</span>
+
+            </div>
+
+        </aside>
+
+        <!-- CONTEÚDO -->
+        
+        <main class="content">
+
+            <!-- HEADER -->
+
+            <header>
+
+                <div>
+
+                    <h1>Dashboard</h1>
+
+                    <p>
+                        Visão geral dos dados da Copa do Mundo
+                    </p>
+
+                </div>
+
+                <div class="header-right">
+
+                  <button id="tema">
+
+                     <i class="fa-solid fa-moon"></i>
+
+                  </button>
+
+                    <select id="filtroSelecao">
+
+                        <option value="">Todas as Seleções</option>
+
+                    </select>
+
+                </div>
+
+            </header>
+
+            <!-- CARDS -->
+
+            <section class="cards">
+
+                <div class="card">
+
+                    <div class="icon blue">
+
+                        <i class="fa-solid fa-users"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Total de Jogadores</h3>
+
+                        <h2 id="totalJogadores">0</h2>
+
+                        <span>Cadastrados</span>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon green">
+
+                        <i class="fa-solid fa-futbol"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Total de Gols</h3>
+
+                        <h2 id="totalGols">0</h2>
+
+                        <span>Marcados</span>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon gold">
+
+                        <i class="fa-solid fa-shoe-prints"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Assistências</h3>
+
+                        <h2 id="totalAssistencias">0</h2>
+
+                        <span>Registradas</span>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon purple">
+
+                        <i class="fa-solid fa-euro-sign"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Valor Mercado</h3>
+
+                        <h2 id="valorMercado">€0</h2>
+
+                        <span>Total</span>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- TABELA -->
+
+            <section class="table-container">
+
+                <div class="table-header">
+
+                    <div>
+
+                        <h2>Jogadores</h2>
+
+                        <p>Lista completa de jogadores cadastrados</p>
+
+                    </div>
+
+                    <div class="search">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        <input
+                            type="text"
+                            id="pesquisa"
+                            placeholder="Pesquisar jogador...">
+
+                    </div>
+
+                </div>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>#</th>
+
+                            <th>Jogador</th>
+
+                            <th>Clube</th>
+
+                            <th>Seleção</th>
+
+                            <th>Valor Mercado</th>
+
+                            <th>Gols</th>
+
+                            <th>Assistências</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="tabelaJogadores">
+
+                        <!-- JavaScript irá preencher -->
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
