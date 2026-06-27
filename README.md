@@ -1,6 +1,6 @@
 # 🏆 WorldCup Analytics
 
-![Dashboard](images/dashboard.png)
+![Dashboard](Images/dashboard.png)
 
 Um dashboard web desenvolvido para análise de dados de jogadores da Copa do Mundo utilizando HTML, CSS, JavaScript, PHP e MySQL.
 
