@@ -107,7 +107,7 @@ http://localhost:8000
 
 ### 🖥️ Interface Principal
 
-![Dashboard](images/dashboard.png)
+![Dashboard](Images/dashboard.png)
 
 ---
 
@@ -115,7 +115,7 @@ http://localhost:8000
 
 Os indicadores são atualizados automaticamente conforme os filtros aplicados.
 
-![Filtro](images/filtro.png)
+![Filtro](Images/filtro.png)
 
 ---
 
@@ -123,7 +123,7 @@ Os indicadores são atualizados automaticamente conforme os filtros aplicados.
 
 Os dados são disponibilizados por uma API REST que retorna JSON para o frontend.
 
-![API](images/api.png)
+![API](Images/api.png)
 
 ---
 
@@ -131,7 +131,7 @@ Os dados são disponibilizados por uma API REST que retorna JSON para o frontend
 
 Estrutura e dados utilizados pela aplicação.
 
-![Banco de Dados](images/bd.png)
+![Banco de Dados](Images/bd.png)
 
 ---
 
@@ -139,7 +139,7 @@ Estrutura e dados utilizados pela aplicação.
 
 Organização dos diretórios e arquivos.
 
-![Estrutura](images/estrutura.png)
+![Estrutura](Images/estrutura.png)
 
 ---
 
@@ -147,7 +147,7 @@ Organização dos diretórios e arquivos.
 
 Modelo Entidade-Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER).
 
-![MER e DER](images/mer-der.png)
+![MER e DER](Images/mer-der.png)
 
 ---
 
